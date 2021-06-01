@@ -103,7 +103,7 @@ export class AppComponent implements OnInit {
   }
 
   isFavourite(bank){
-    return this.favouriteBanks.some(favouriteBank=> favouriteBank.ifsc == bank.ifsc);
+    return this.favouriteBanks.some(favouriteBank=> favouriteBank.ifsc === bank.ifsc);
   }
 
   showFavouriteBanks(){
