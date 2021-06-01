@@ -1,0 +1,43 @@
+.heading{
+    margin:auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+#select-city{
+    height: 35px;
+    width: 300px;
+}
+
+.bank-detail-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.favourite-text{
+    color: #f26323;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.relative-position{
+    position: relative;
+    height: 50px;
+
+    .absolute-position{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 10px;
+    }
+}

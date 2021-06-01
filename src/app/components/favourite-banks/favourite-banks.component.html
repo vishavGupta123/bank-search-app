@@ -1,0 +1,26 @@
+<div style="padding: 10px;">
+    <h1 class="heading">
+        Favourite Banks
+    </h1>
+
+    <table style="width: 100%;">
+        <th>Id</th>
+        <th>IFSC</th>
+        <th>Bank Id</th>
+        <th>Bank Name</th>
+        <th>Branch</th>
+        <th>City</th>
+        <th>District</th>
+        <th>State</th>
+        <tr *ngFor="let bank of favouriteBanks,index as i">
+            <td> {{i+1}} </td>
+            <td> {{bank.ifsc}} </td>
+            <td> {{bank.bank_id}} </td>
+            <td> {{bank.bank_name}} </td>
+            <td> {{bank.branch}} </td>
+            <td> {{bank.city}} </td>
+            <td> {{bank.district}} </td>
+            <td> {{bank.state}} </td>
+        </tr>
+    </table>
+</div>
